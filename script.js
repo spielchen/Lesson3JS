@@ -12,8 +12,8 @@ function start (){
 start();
 
 let appData = {
-		money,
-		time, 
+		budget: money,
+		timeData: time, 
 		expenses: {},
 		income:[],
 		optionalExpenses:{},
