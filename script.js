@@ -12,8 +12,8 @@ function start (){
 start();
 
 let appData = {
-		budget: money,
-		timeData: time, 
+		money,
+		time, 
 		expenses: {},
 		income:[],
 		optionalExpenses:{},
@@ -39,12 +39,12 @@ function chooseExpenses() {
 chooseExpenses();	 
 
 function detectDayBudget(){
-	alert('Бюджет за 1 день: '+ (appData.budget / 30).toFixed());
+	alert('Бюджет за 1 день: '+ (appData.money / 30).toFixed());
 };
 
 detectDayBudget();
 
-appData.moneyPerDay = appData.budget / 30;
+appData.moneyPerDay = appData.money / 30;
 
 function detectLevel() {
 		if (appData.moneyPerDay < 100){
