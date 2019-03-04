@@ -39,7 +39,7 @@ function chooseExpenses() {
 chooseExpenses();	 
 
 function detectDayBudget(){
-	alert('Бюджет за 1 день: '+ (appData.money / 30).toFixed());
+	alert('Бюджет за 1 день: '+ (appData.budget / 30).toFixed());
 };
 
 detectDayBudget();
