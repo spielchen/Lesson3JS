@@ -44,7 +44,7 @@ function detectDayBudget(){
 
 detectDayBudget();
 
-appData.moneyPerDay = appData.money / 30;
+appData.moneyPerDay = appData.budget / 30;
 
 function detectLevel() {
 		if (appData.moneyPerDay < 100){
